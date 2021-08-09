@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/FirstDB", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Workouts", {
     useNewUrlParser: true,
     useFindAndModify: false,
     useCreateIndex: true,
